@@ -1,0 +1,30 @@
+2021-10-01 17:32:14.848702Z	info	statReport	monitor/stat_monitor.go:246	start to upload stat info to monitor
+2021-10-01 17:33:05.142800Z	error	statReport	ratelimit/ratelimit.go:226	fail to connect to monitor, err: Polaris-1004(ErrCodeAPITimeoutError): retry times exceed 0 in SyncGetResources, serviceKey: {namespace: "Polaris", service: "polaris.monitor"}, timeout is 300ms
+2021-10-01 17:33:05.142867Z	error	statReport	ratelimit/ratelimit.go:210	fail to connect to monitor to report ratelimit Record, error Polaris-1004(ErrCodeAPITimeoutError): retry times exceed 0 in SyncGetResources, serviceKey: {namespace: "Polaris", service: "polaris.monitor"}, timeout is 300ms
+2021-10-01 17:33:20.317611Z	error	statReport	monitor/stat_monitor.go:456	fail to connect to monitor, err: Polaris-1004(ErrCodeAPITimeoutError): retry times exceed 0 in SyncGetResources, serviceKey: {namespace: "Polaris", service: "polaris.monitor"}, timeout is 300ms
+2021-10-01 17:33:20.317663Z	info	statReport	monitor/stat_monitor.go:256	finish to upload stat info to monitor
+2021-10-01 17:33:20.317679Z	info	statReport	monitor/stat_monitor.go:246	start to upload stat info to monitor
+2021-10-01 17:33:25.339318Z	error	statReport	monitor/stat_monitor.go:456	fail to connect to monitor, err: Polaris-1006(ErrCodeServerUserError): multierrs received for GetInstances request, serviceKey: {namespace: "Polaris", service: "polaris.monitor"}, cause: 1 error occurred:
+	* SDKError for {ServiceKey: {namespace: "Polaris", service: "polaris.monitor"}, Operation: destinationInstances}, detail is Polaris-1015(ErrCodeServiceNotFound): service {namespace: "Polaris", service: "polaris.monitor", event: instance} not found
+
+
+2021-10-01 17:33:25.339387Z	info	statReport	monitor/stat_monitor.go:256	finish to upload stat info to monitor
+2021-10-01 17:33:34.964761Z	error	statReport	ratelimit/ratelimit.go:226	fail to connect to monitor, err: Polaris-1004(ErrCodeAPITimeoutError): retry times exceed 0 in SyncGetResources, serviceKey: {namespace: "Polaris", service: "polaris.monitor"}, timeout is 300ms
+2021-10-01 17:33:34.964797Z	error	statReport	ratelimit/ratelimit.go:210	fail to connect to monitor to report ratelimit Record, error Polaris-1004(ErrCodeAPITimeoutError): retry times exceed 0 in SyncGetResources, serviceKey: {namespace: "Polaris", service: "polaris.monitor"}, timeout is 300ms
+2021-10-01 18:02:01.589629Z	info	statReport	monitor/stat_monitor.go:246	start to upload stat info to monitor
+2021-10-01 18:02:01.590787Z	error	statReport	ratelimit/ratelimit.go:226	fail to connect to monitor, err: Polaris-1006(ErrCodeServerUserError): multierrs received for GetInstances request, serviceKey: {namespace: "Polaris", service: "polaris.monitor"}, cause: 2 errors occurred:
+	* SDKError for {ServiceKey: {namespace: "Polaris", service: "polaris.monitor"}, Operation: destinationInstances}, detail is Polaris-1015(ErrCodeServiceNotFound): service {namespace: "Polaris", service: "polaris.monitor", event: instance} not found
+	* SDKError for {ServiceKey: {namespace: "Polaris", service: "polaris.monitor"}, Operation: destinationRoute}, detail is Polaris-1015(ErrCodeServiceNotFound): service {namespace: "Polaris", service: "polaris.monitor", event: routing} not found
+
+
+2021-10-01 18:02:01.590800Z	error	statReport	ratelimit/ratelimit.go:210	fail to connect to monitor to report ratelimit Record, error Polaris-1006(ErrCodeServerUserError): multierrs received for GetInstances request, serviceKey: {namespace: "Polaris", service: "polaris.monitor"}, cause: 2 errors occurred:
+	* SDKError for {ServiceKey: {namespace: "Polaris", service: "polaris.monitor"}, Operation: destinationInstances}, detail is Polaris-1015(ErrCodeServiceNotFound): service {namespace: "Polaris", service: "polaris.monitor", event: instance} not found
+	* SDKError for {ServiceKey: {namespace: "Polaris", service: "polaris.monitor"}, Operation: destinationRoute}, detail is Polaris-1015(ErrCodeServiceNotFound): service {namespace: "Polaris", service: "polaris.monitor", event: routing} not found
+
+
+2021-10-01 18:02:01.591715Z	error	statReport	monitor/stat_monitor.go:456	fail to connect to monitor, err: Polaris-1006(ErrCodeServerUserError): multierrs received for GetInstances request, serviceKey: {namespace: "Polaris", service: "polaris.monitor"}, cause: 2 errors occurred:
+	* SDKError for {ServiceKey: {namespace: "Polaris", service: "polaris.monitor"}, Operation: destinationRoute}, detail is Polaris-1015(ErrCodeServiceNotFound): service {namespace: "Polaris", service: "polaris.monitor", event: routing} not found
+	* SDKError for {ServiceKey: {namespace: "Polaris", service: "polaris.monitor"}, Operation: destinationInstances}, detail is Polaris-1015(ErrCodeServiceNotFound): service {namespace: "Polaris", service: "polaris.monitor", event: instance} not found
+
+
+2021-10-01 18:02:01.591751Z	info	statReport	monitor/stat_monitor.go:256	finish to upload stat info to monitor

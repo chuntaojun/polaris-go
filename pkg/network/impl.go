@@ -133,7 +133,7 @@ func (s *ServerAddressList) loadCurrentConnection() *Connection {
 }
 
 //根据地址进行连接
-func (s *ServerAddressList) connectServer(force bool, addr string, instance model.Instance,
+func (s *ServerAddressList)  connectServer(force bool, addr string, instance model.Instance,
 	service config.ClusterService, timeout time.Duration) (*Connection, error) {
 	var lastConn = s.loadCurrentConnection()
 	if !force && IsAvailableConnection(lastConn) && lastConn.Address == addr {

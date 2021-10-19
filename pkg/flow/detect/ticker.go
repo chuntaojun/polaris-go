@@ -162,6 +162,8 @@ func (c *HealthCheckCallBack) processHealthCheck(svc *model.ServiceKey, instance
 
 func (c *HealthCheckCallBack) doConcurrentHealthCheck(instance model.Instance) (bool, time.Time) {
 	curTime := time.Now()
+
+	//TODO 不管任何服务实例，都需要通过所有的 healthChecker ？感觉这里更应该选择性探测？某些服务允许使用http，某些服务允许使用tcp
 	for _, checker := range c.healthCheckers {
 		result, err := checker.DetectInstance(instance)
 		if err != nil {

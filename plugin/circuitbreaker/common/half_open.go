@@ -75,7 +75,7 @@ func (h *HalfOpenConversionHandler) CreateHalfOpenMetricWindow(name string) *met
 }
 
 //halfOpenByCheck 打开了探测，通过探测结果来判断半开
-func (h *HalfOpenConversionHandler) halfOpenByCheck(instance model.Instance, startTime time.Time) *bool {
+func (h *HalfOpenConversionHandler)  halfOpenByCheck(instance model.Instance, startTime time.Time) *bool {
 	if !h.enableHealthCheck {
 		return nil
 	}

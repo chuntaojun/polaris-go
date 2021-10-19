@@ -19,8 +19,11 @@ package main
 
 import (
 	"flag"
-	"github.com/polarismesh/polaris-go/api"
 	"log"
+	"sync"
+	"time"
+
+	"github.com/polarismesh/polaris-go/api"
 )
 
 var (
@@ -30,7 +33,7 @@ var (
 
 func initArgs() {
 	flag.StringVar(&namespace, "namespace", "default", "namespace")
-	flag.StringVar(&service, "service", "", "service")
+	flag.StringVar(&service, "service", "tdsql-ops-server", "service")
 }
 
 func main() {
@@ -62,15 +65,23 @@ func main() {
 	}
 
 	log.Printf("start to invoke getOneInstance operation")
-	getOneRequest := &api.GetOneInstanceRequest{}
-	getOneRequest.Namespace = namespace
-	getOneRequest.Service = service
-	oneInstResp, err := consumer.GetOneInstance(getOneRequest)
-	if nil != err {
-		log.Fatalf("fail to getOneInstance, err is %v", err)
+	for i := 0; i < 1; i++ {
+		getAllRequest := &api.GetAllInstancesRequest{}
+		getAllRequest.Namespace = namespace
+		getAllRequest.Service = service
+		allInstResp, err := consumer.GetAllInstances(getAllRequest)
+		if nil != err {
+			log.Fatalf("fail to getOneInstance, err is %v", err)
+		}
+
+		instances := allInstResp.GetInstances()
+		log.Printf("%d get", i)
+		for _, instance := range instances {
+			log.Printf("instance is %s:%d", instance.GetHost(), instance.GetPort())
+		}
+		time.Sleep(time.Duration(1) * time.Second)
 	}
-	instance := oneInstResp.GetInstance()
-	if nil != instance {
-		log.Printf("instance getOneInstance is %s:%d", instance.GetHost(), instance.GetPort())
-	}
+	wg := &sync.WaitGroup{}
+	wg.Add(1)
+	wg.Wait()
 }

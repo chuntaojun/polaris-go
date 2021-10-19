@@ -1,0 +1,142 @@
+2021-09-19 16:53:29.257699Z	info	network	network/conn.go:96	connection {ID: 3583661700, Address: 127.0.0.1:8091}: close, curRef is 0
+2021-09-19 16:53:30.770132Z	info	network	network/conn.go:96	connection {ID: 1259245401, Address: 127.0.0.1:8091}: close, curRef is 0
+2021-09-19 16:53:32.789862Z	error	network	network/impl.go:339	fail to get connection, opKey is RegisterInstance, cluster discover, error is fail to connect to 127.0.0.1:8091, timeout is 503.564215ms, service is {ServiceKey: {namespace: "Polaris", service: "polaris-default"}, ClusterType: builtin}, because context deadline exceeded
+2021-09-24 11:41:10.413471Z	info	network	network/conn.go:96	connection {ID: 4289259849, Address: 127.0.0.1:8091}: close, curRef is 0
+2021-09-24 11:41:10.898717Z	info	network	network/conn.go:96	connection {ID: 1482184668, Address: 127.0.0.1:8091}: close, curRef is 0
+2021-09-24 11:41:10.922805Z	info	network	network/conn.go:96	connection {ID: 732390467, Address: 127.0.0.1:8091}: close, curRef is 0
+2021-09-24 11:41:13.442982Z	info	network	network/conn.go:96	connection {ID: 2133744630, Address: 127.0.0.1:8091}: close, curRef is 0
+2021-09-24 11:41:15.952309Z	info	network	network/conn.go:96	connection {ID: 1888718721, Address: 127.0.0.1:8091}: close, curRef is 0
+2021-09-24 11:41:18.465478Z	info	network	network/conn.go:96	connection {ID: 546466716, Address: 127.0.0.1:8091}: close, curRef is 0
+2021-09-24 11:41:20.975493Z	info	network	network/conn.go:96	connection {ID: 3063002488, Address: 127.0.0.1:8091}: close, curRef is 0
+2021-09-24 11:41:23.485622Z	info	network	network/conn.go:96	connection {ID: 1273637288, Address: 127.0.0.1:8091}: close, curRef is 0
+2021-09-24 11:41:25.995303Z	info	network	network/conn.go:96	connection {ID: 351162863, Address: 127.0.0.1:8091}: close, curRef is 0
+2021-09-24 11:41:28.505309Z	info	network	network/conn.go:96	connection {ID: 695289095, Address: 127.0.0.1:8091}: close, curRef is 0
+2021-09-24 11:41:31.023464Z	info	network	network/conn.go:96	connection {ID: 2070217977, Address: 127.0.0.1:8091}: close, curRef is 0
+2021-09-24 11:41:33.536748Z	info	network	network/conn.go:96	connection {ID: 1965133843, Address: 127.0.0.1:8091}: close, curRef is 0
+2021-09-24 11:41:36.075306Z	info	network	network/conn.go:96	connection {ID: 4239722571, Address: 127.0.0.1:8091}: close, curRef is 0
+2021-09-24 11:42:13.261164Z	info	network	network/conn.go:96	connection {ID: 3062821697, Address: 127.0.0.1:8091}: close, curRef is 0
+2021-09-24 11:42:13.756664Z	info	network	network/conn.go:96	connection {ID: 4016431110, Address: 127.0.0.1:8091}: close, curRef is 0
+2021-09-24 11:42:13.773717Z	info	network	network/conn.go:96	connection {ID: 1926051985, Address: 127.0.0.1:8091}: close, curRef is 0
+2021-09-24 11:42:16.294847Z	info	network	network/conn.go:96	connection {ID: 1719247507, Address: 127.0.0.1:8091}: close, curRef is 0
+2021-09-24 11:42:18.814484Z	info	network	network/conn.go:96	connection {ID: 4070412382, Address: 127.0.0.1:8091}: close, curRef is 0
+2021-09-24 11:42:21.321220Z	info	network	network/conn.go:96	connection {ID: 3267165574, Address: 127.0.0.1:8091}: close, curRef is 0
+2021-09-24 11:42:23.834836Z	info	network	network/conn.go:96	connection {ID: 4229891911, Address: 127.0.0.1:8091}: close, curRef is 0
+2021-09-24 11:42:26.346907Z	info	network	network/conn.go:96	connection {ID: 2079672564, Address: 127.0.0.1:8091}: close, curRef is 0
+2021-09-24 11:42:28.856995Z	info	network	network/conn.go:96	connection {ID: 1479159662, Address: 127.0.0.1:8091}: close, curRef is 0
+2021-09-24 11:42:31.374749Z	info	network	network/conn.go:96	connection {ID: 581468660, Address: 127.0.0.1:8091}: close, curRef is 0
+2021-09-24 11:42:33.892273Z	info	network	network/conn.go:96	connection {ID: 283383138, Address: 127.0.0.1:8091}: close, curRef is 0
+2021-09-24 11:42:36.401261Z	info	network	network/conn.go:96	connection {ID: 1020566550, Address: 127.0.0.1:8091}: close, curRef is 0
+2021-10-01 17:28:17.029755Z	info	network	network/conn.go:96	connection {ID: 1533432223, Address: 127.0.0.1:8091}: close, curRef is 0
+2021-10-01 17:28:17.511001Z	info	network	network/conn.go:96	connection {ID: 554370907, Address: 127.0.0.1:8091}: close, curRef is 0
+2021-10-01 17:28:18.547019Z	info	network	network/conn.go:96	connection {ID: 2590237962, Address: 127.0.0.1:8091}: close, curRef is 0
+2021-10-01 17:28:21.062298Z	info	network	network/conn.go:96	connection {ID: 2929766649, Address: 127.0.0.1:8091}: close, curRef is 0
+2021-10-01 17:29:02.266087Z	info	network	network/conn.go:96	connection {ID: 95734493, Address: 9.135.224.139:8091}: close, curRef is 0
+2021-10-01 17:29:02.789520Z	info	network	network/conn.go:96	connection {ID: 1087945963, Address: 9.135.224.139:8091}: close, curRef is 0
+2021-10-01 17:29:04.308692Z	info	network	network/conn.go:96	connection {ID: 1127724101, Address: 9.135.224.139:8091}: close, curRef is 0
+2021-10-01 17:29:06.831849Z	info	network	network/conn.go:96	connection {ID: 1878615861, Address: 9.135.224.139:8091}: close, curRef is 0
+2021-10-01 17:31:10.373293Z	info	network	network/conn.go:96	connection {ID: 1496481217, Address: 9.135.224.139:8091}: close, curRef is 0
+2021-10-01 17:31:28.498648Z	error	network	network/impl.go:339	fail to get connection, opKey is ReportClient, cluster discover, error is fail to connect to 9.135.224.139:8091, timeout is 12.248767679s, service is {ServiceKey: {namespace: "Polaris", service: "polaris-default"}, ClusterType: builtin}, because context deadline exceeded
+2021-10-01 17:32:18.371013Z	error	network	network/impl.go:339	fail to get connection, opKey is Discover, cluster discover, error is fail to connect to 9.135.224.139:8091, timeout is 2.458275817s, service is {ServiceKey: {namespace: "Polaris", service: "polaris-default"}, ClusterType: builtin}, because context deadline exceeded
+2021-10-01 17:32:18.371072Z	error	network	common/discover.go:623	973910FA-78F7-4C87-9BF6-0C7ECDBDEA24, newStream: fail to get connection of discover, err fail to connect to 9.135.224.139:8091, timeout is 2.458275817s, service is {ServiceKey: {namespace: "Polaris", service: "polaris-default"}, ClusterType: builtin}, because context deadline exceeded
+2021-10-01 17:32:53.103423Z	info	network	common/discover.go:635	973910FA-78F7-4C87-9BF6-0C7ECDBDEA24, stream 43950087009 created, connection {ID: 2841499233, Address: 9.135.224.139:8091}, timeout 3s
+2021-10-01 17:32:53.103493Z	info	network	common/discover.go:638	973910FA-78F7-4C87-9BF6-0C7ECDBDEA24, newStream: add first or retry task {namespace: "Polaris", service: "polaris.monitor", event: routing, longRun: firstTask} to new streamingClient 43950087009 pendingTasks
+2021-10-01 17:32:53.103510Z	info	network	common/discover.go:784	973910FA-78F7-4C87-9BF6-0C7ECDBDEA24, asyncUpdateTask: start to send request for {namespace: "Polaris", service: "polaris.monitor", event: routing, longRun: firstTask} from streamingClient 43950087009
+2021-10-01 17:33:03.213550Z	error	network	network/impl.go:339	fail to get connection, opKey is ReportRateLimit, cluster monitor, error is Polaris-1004(ErrCodeAPITimeoutError): retry times exceed 0 in SyncGetResources, serviceKey: {namespace: "Polaris", service: "polaris.monitor"}, timeout is 300ms
+2021-10-01 17:33:05.142896Z	info	network	common/discover.go:574	973910FA-78F7-4C87-9BF6-0C7ECDBDEA24, checkStreamingClientAvailable: add first or retry task {namespace: "Polaris", service: "polaris.monitor", event: instance, longRun: firstTask} to streamingClient 43950087009 pendingTasks
+2021-10-01 17:33:05.142956Z	info	network	common/discover.go:784	973910FA-78F7-4C87-9BF6-0C7ECDBDEA24, asyncUpdateTask: start to send request for {namespace: "Polaris", service: "polaris.monitor", event: instance, longRun: firstTask} from streamingClient 43950087009
+2021-10-01 17:33:05.143042Z	info	network	common/discover.go:693	973910FA-78F7-4C87-9BF6-0C7ECDBDEA24, allTaskTimeout: task {namespace: "Polaris", service: "polaris.monitor", event: routing, longRun: firstTask} timeout, sendTime 2021-10-01 17:32:18.371277908 +0800 CST m=+68.037866624, now 2021-10-01 17:33:05.142986465 +0800 CST m=+114.809575171
+2021-10-01 17:33:05.143056Z	info	network	common/discover.go:713	973910FA-78F7-4C87-9BF6-0C7ECDBDEA24, client connection {ID: 2841499233, Address: 9.135.224.139:8091} has switched
+2021-10-01 17:33:20.317580Z	error	network	network/impl.go:339	fail to get connection, opKey is ReportStat, cluster monitor, error is Polaris-1004(ErrCodeAPITimeoutError): retry times exceed 0 in SyncGetResources, serviceKey: {namespace: "Polaris", service: "polaris.monitor"}, timeout is 300ms
+2021-10-01 17:33:22.642309Z	error	network	common/discover.go:500	973910FA-78F7-4C87-9BF6-0C7ECDBDEA24, receiveAndNotify: fail to receive message from connection {ID: 2841499233, Address: 9.135.224.139:8091}, streamingClient 43950087009, err EOF
+2021-10-01 17:33:22.642588Z	info	network	common/discover.go:713	973910FA-78F7-4C87-9BF6-0C7ECDBDEA24, client connection {ID: 2841499233, Address: 9.135.224.139:8091} has switched
+2021-10-01 17:33:25.339253Z	error	network	network/impl.go:339	fail to get connection, opKey is ReportStat, cluster monitor, error is Polaris-1006(ErrCodeServerUserError): multierrs received for GetInstances request, serviceKey: {namespace: "Polaris", service: "polaris.monitor"}, cause: 1 error occurred:
+	* SDKError for {ServiceKey: {namespace: "Polaris", service: "polaris.monitor"}, Operation: destinationInstances}, detail is Polaris-1015(ErrCodeServiceNotFound): service {namespace: "Polaris", service: "polaris.monitor", event: instance} not found
+
+
+2021-10-01 17:33:25.339316Z	info	network	common/discover.go:713	973910FA-78F7-4C87-9BF6-0C7ECDBDEA24, client connection {ID: 2841499233, Address: 9.135.224.139:8091} has switched
+2021-10-01 17:33:29.397784Z	error	network	network/impl.go:339	fail to get connection, opKey is Discover, cluster discover, error is fail to connect to 9.135.224.139:8091, timeout is 4.058382213s, service is {ServiceKey: {namespace: "Polaris", service: "polaris-default"}, ClusterType: builtin}, because context deadline exceeded
+2021-10-01 17:33:29.397845Z	error	network	common/discover.go:623	973910FA-78F7-4C87-9BF6-0C7ECDBDEA24, newStream: fail to get connection of discover, err fail to connect to 9.135.224.139:8091, timeout is 4.058382213s, service is {ServiceKey: {namespace: "Polaris", service: "polaris-default"}, ClusterType: builtin}, because context deadline exceeded
+2021-10-01 17:33:34.964726Z	error	network	network/impl.go:339	fail to get connection, opKey is ReportRateLimit, cluster monitor, error is Polaris-1004(ErrCodeAPITimeoutError): retry times exceed 0 in SyncGetResources, serviceKey: {namespace: "Polaris", service: "polaris.monitor"}, timeout is 300ms
+2021-10-01 17:33:45.937541Z	error	network	network/impl.go:339	fail to get connection, opKey is Discover, cluster discover, error is fail to connect to 9.135.224.139:8091, timeout is 16.539527957s, service is {ServiceKey: {namespace: "Polaris", service: "polaris-default"}, ClusterType: builtin}, because context deadline exceeded
+2021-10-01 17:33:45.937530Z	info	network	network/conn.go:96	connection {ID: 2841499233, Address: 9.135.224.139:8091}: close, curRef is 0
+2021-10-01 17:33:45.937598Z	error	network	common/discover.go:623	973910FA-78F7-4C87-9BF6-0C7ECDBDEA24, newStream: fail to get connection of discover, err fail to connect to 9.135.224.139:8091, timeout is 16.539527957s, service is {ServiceKey: {namespace: "Polaris", service: "polaris-default"}, ClusterType: builtin}, because context deadline exceeded
+2021-10-01 17:33:45.938729Z	info	network	common/discover.go:635	973910FA-78F7-4C87-9BF6-0C7ECDBDEA24, stream 4234554572 created, connection {ID: 1818477593, Address: 9.135.224.139:8091}, timeout 3s
+2021-10-01 17:33:45.938785Z	info	network	common/discover.go:638	973910FA-78F7-4C87-9BF6-0C7ECDBDEA24, newStream: add first or retry task {namespace: "Polaris", service: "polaris.monitor", event: routing, longRun: firstTask} to new streamingClient 4234554572 pendingTasks
+2021-10-01 17:33:45.938808Z	info	network	common/discover.go:784	973910FA-78F7-4C87-9BF6-0C7ECDBDEA24, asyncUpdateTask: start to send request for {namespace: "Polaris", service: "polaris.monitor", event: routing, longRun: firstTask} from streamingClient 4234554572
+2021-10-01 17:33:46.139942Z	info	network	common/discover.go:574	973910FA-78F7-4C87-9BF6-0C7ECDBDEA24, checkStreamingClientAvailable: add first or retry task {namespace: "Polaris", service: "polaris.monitor", event: instance, longRun: firstTask} to streamingClient 4234554572 pendingTasks
+2021-10-01 17:33:46.139972Z	info	network	common/discover.go:784	973910FA-78F7-4C87-9BF6-0C7ECDBDEA24, asyncUpdateTask: start to send request for {namespace: "Polaris", service: "polaris.monitor", event: instance, longRun: firstTask} from streamingClient 4234554572
+2021-10-01 17:33:46.349144Z	info	network	common/discover.go:713	973910FA-78F7-4C87-9BF6-0C7ECDBDEA24, client connection {ID: 1818477593, Address: 9.135.224.139:8091} has switched
+2021-10-01 17:33:46.349233Z	info	network	network/conn.go:96	connection {ID: 1818477593, Address: 9.135.224.139:8091}: close, curRef is 0
+2021-10-01 17:33:46.349274Z	error	network	common/discover.go:500	973910FA-78F7-4C87-9BF6-0C7ECDBDEA24, receiveAndNotify: fail to receive message from connection {ID: 1818477593, Address: 9.135.224.139:8091}, streamingClient 4234554572, err rpc error: code = Canceled desc = grpc: the client connection is closing
+2021-10-01 17:33:46.847621Z	info	network	common/discover.go:713	973910FA-78F7-4C87-9BF6-0C7ECDBDEA24, client connection {ID: 1818477593, Address: 9.135.224.139:8091} has switched
+2021-10-01 17:33:51.523387Z	info	network	common/discover.go:713	973910FA-78F7-4C87-9BF6-0C7ECDBDEA24, client connection {ID: 1818477593, Address: 9.135.224.139:8091} has switched
+2021-10-01 17:33:51.848344Z	info	network	common/discover.go:713	973910FA-78F7-4C87-9BF6-0C7ECDBDEA24, client connection {ID: 1818477593, Address: 9.135.224.139:8091} has switched
+2021-10-01 17:33:52.349968Z	info	network	common/discover.go:713	973910FA-78F7-4C87-9BF6-0C7ECDBDEA24, client connection {ID: 1818477593, Address: 9.135.224.139:8091} has switched
+2021-10-01 17:33:52.847050Z	info	network	common/discover.go:713	973910FA-78F7-4C87-9BF6-0C7ECDBDEA24, client connection {ID: 1818477593, Address: 9.135.224.139:8091} has switched
+2021-10-01 17:33:53.041932Z	info	network	network/conn.go:96	connection {ID: 1642494164, Address: 9.135.224.139:8091}: close, curRef is 0
+2021-10-01 17:34:02.885625Z	info	network	network/conn.go:96	connection {ID: 409477129, Address: 9.135.224.139:8091}: close, curRef is 0
+2021-10-01 17:34:11.501046Z	info	network	network/conn.go:96	connection {ID: 2866512905, Address: 9.135.224.139:8091}: close, curRef is 0
+2021-10-01 17:34:12.998391Z	info	network	network/conn.go:96	connection {ID: 893199277, Address: 9.135.224.139:8091}: close, curRef is 0
+2021-10-01 17:34:15.510280Z	info	network	network/conn.go:96	connection {ID: 1574981094, Address: 9.135.224.139:8091}: close, curRef is 0
+2021-10-01 17:35:01.382294Z	info	network	network/conn.go:96	connection {ID: 1230850349, Address: 9.135.224.139:8091}: close, curRef is 0
+2021-10-01 17:35:01.867938Z	info	network	network/conn.go:96	connection {ID: 681411369, Address: 9.135.224.139:8091}: close, curRef is 0
+2021-10-01 17:35:02.900395Z	info	network	network/conn.go:96	connection {ID: 627537392, Address: 9.135.224.139:8091}: close, curRef is 0
+2021-10-01 17:35:05.424440Z	info	network	network/conn.go:96	connection {ID: 3145265399, Address: 9.135.224.139:8091}: close, curRef is 0
+2021-10-01 18:00:11.874862Z	info	network	network/conn.go:96	connection {ID: 765165864, Address: 9.135.224.139:8091}: close, curRef is 0
+2021-10-01 18:00:12.405003Z	info	network	network/conn.go:96	connection {ID: 812623926, Address: 9.135.224.139:8091}: close, curRef is 0
+2021-10-01 18:00:12.919989Z	info	network	network/conn.go:96	connection {ID: 2808974768, Address: 9.135.224.139:8091}: close, curRef is 0
+2021-10-01 18:01:01.614421Z	info	network	network/conn.go:96	connection {ID: 2388394808, Address: 9.135.224.139:8091}: close, curRef is 0
+2021-10-01 18:01:02.110279Z	info	network	network/conn.go:96	connection {ID: 1015651741, Address: 9.135.224.139:8091}: close, curRef is 0
+2021-10-01 18:01:02.131950Z	info	network	network/conn.go:96	connection {ID: 1018166623, Address: 9.135.224.139:8091}: close, curRef is 0
+2021-10-01 18:01:04.651328Z	info	network	network/conn.go:96	connection {ID: 4173063698, Address: 9.135.224.139:8091}: close, curRef is 0
+2021-10-01 18:01:07.165356Z	info	network	network/conn.go:96	connection {ID: 3354188078, Address: 9.135.224.139:8091}: close, curRef is 0
+2021-10-01 18:01:09.675027Z	info	network	network/conn.go:96	connection {ID: 373316195, Address: 9.135.224.139:8091}: close, curRef is 0
+2021-10-01 18:01:12.191868Z	info	network	network/conn.go:96	connection {ID: 1587308410, Address: 9.135.224.139:8091}: close, curRef is 0
+2021-10-01 18:01:14.703565Z	info	network	network/conn.go:96	connection {ID: 313294809, Address: 9.135.224.139:8091}: close, curRef is 0
+2021-10-01 18:01:17.221838Z	info	network	network/conn.go:96	connection {ID: 1539007937, Address: 9.135.224.139:8091}: close, curRef is 0
+2021-10-01 18:01:19.741637Z	info	network	network/conn.go:96	connection {ID: 114447733, Address: 9.135.224.139:8091}: close, curRef is 0
+2021-10-01 18:01:22.249539Z	info	network	network/conn.go:96	connection {ID: 316882325, Address: 9.135.224.139:8091}: close, curRef is 0
+2021-10-01 18:01:24.763471Z	info	network	network/conn.go:96	connection {ID: 3206150389, Address: 9.135.224.139:8091}: close, curRef is 0
+2021-10-01 18:02:01.589018Z	info	network	common/discover.go:635	9C60CC0E-B97C-46AD-9CA3-CA376EC7BB7B, stream 42758716863 created, connection {ID: 2017654559, Address: 9.135.224.139:8091}, timeout 3s
+2021-10-01 18:02:01.589050Z	info	network	common/discover.go:638	9C60CC0E-B97C-46AD-9CA3-CA376EC7BB7B, newStream: add first or retry task {namespace: "Polaris", service: "polaris.monitor", event: instance, longRun: firstTask} to new streamingClient 42758716863 pendingTasks
+2021-10-01 18:02:01.589065Z	info	network	common/discover.go:784	9C60CC0E-B97C-46AD-9CA3-CA376EC7BB7B, asyncUpdateTask: start to send request for {namespace: "Polaris", service: "polaris.monitor", event: instance, longRun: firstTask} from streamingClient 42758716863
+2021-10-01 18:02:01.589623Z	info	network	common/discover.go:574	9C60CC0E-B97C-46AD-9CA3-CA376EC7BB7B, checkStreamingClientAvailable: add first or retry task {namespace: "Polaris", service: "polaris.monitor", event: routing, longRun: firstTask} to streamingClient 42758716863 pendingTasks
+2021-10-01 18:02:01.589644Z	info	network	common/discover.go:784	9C60CC0E-B97C-46AD-9CA3-CA376EC7BB7B, asyncUpdateTask: start to send request for {namespace: "Polaris", service: "polaris.monitor", event: routing, longRun: firstTask} from streamingClient 42758716863
+2021-10-01 18:02:01.590763Z	error	network	network/impl.go:339	fail to get connection, opKey is ReportRateLimit, cluster monitor, error is Polaris-1006(ErrCodeServerUserError): multierrs received for GetInstances request, serviceKey: {namespace: "Polaris", service: "polaris.monitor"}, cause: 2 errors occurred:
+	* SDKError for {ServiceKey: {namespace: "Polaris", service: "polaris.monitor"}, Operation: destinationInstances}, detail is Polaris-1015(ErrCodeServiceNotFound): service {namespace: "Polaris", service: "polaris.monitor", event: instance} not found
+	* SDKError for {ServiceKey: {namespace: "Polaris", service: "polaris.monitor"}, Operation: destinationRoute}, detail is Polaris-1015(ErrCodeServiceNotFound): service {namespace: "Polaris", service: "polaris.monitor", event: routing} not found
+
+
+2021-10-01 18:02:01.590982Z	info	network	common/discover.go:574	9C60CC0E-B97C-46AD-9CA3-CA376EC7BB7B, checkStreamingClientAvailable: add first or retry task {namespace: "Polaris", service: "polaris.monitor", event: instance, longRun: firstTask} to streamingClient 42758716863 pendingTasks
+2021-10-01 18:02:01.591009Z	info	network	common/discover.go:784	9C60CC0E-B97C-46AD-9CA3-CA376EC7BB7B, asyncUpdateTask: start to send request for {namespace: "Polaris", service: "polaris.monitor", event: instance, longRun: firstTask} from streamingClient 42758716863
+2021-10-01 18:02:01.591055Z	info	network	common/discover.go:574	9C60CC0E-B97C-46AD-9CA3-CA376EC7BB7B, checkStreamingClientAvailable: add first or retry task {namespace: "Polaris", service: "polaris.monitor", event: routing, longRun: firstTask} to streamingClient 42758716863 pendingTasks
+2021-10-01 18:02:01.591077Z	info	network	common/discover.go:784	9C60CC0E-B97C-46AD-9CA3-CA376EC7BB7B, asyncUpdateTask: start to send request for {namespace: "Polaris", service: "polaris.monitor", event: routing, longRun: firstTask} from streamingClient 42758716863
+2021-10-01 18:02:01.591699Z	error	network	network/impl.go:339	fail to get connection, opKey is ReportStat, cluster monitor, error is Polaris-1006(ErrCodeServerUserError): multierrs received for GetInstances request, serviceKey: {namespace: "Polaris", service: "polaris.monitor"}, cause: 2 errors occurred:
+	* SDKError for {ServiceKey: {namespace: "Polaris", service: "polaris.monitor"}, Operation: destinationRoute}, detail is Polaris-1015(ErrCodeServiceNotFound): service {namespace: "Polaris", service: "polaris.monitor", event: routing} not found
+	* SDKError for {ServiceKey: {namespace: "Polaris", service: "polaris.monitor"}, Operation: destinationInstances}, detail is Polaris-1015(ErrCodeServiceNotFound): service {namespace: "Polaris", service: "polaris.monitor", event: instance} not found
+
+
+2021-10-01 18:02:05.090161Z	info	network	network/conn.go:96	connection {ID: 2017654559, Address: 9.135.224.139:8091}: close, curRef is 0
+2021-10-01 18:02:05.090267Z	error	network	common/discover.go:500	9C60CC0E-B97C-46AD-9CA3-CA376EC7BB7B, receiveAndNotify: fail to receive message from connection {ID: 2017654559, Address: 9.135.224.139:8091}, streamingClient 42758716863, err rpc error: code = Canceled desc = grpc: the client connection is closing
+2021-10-01 18:02:05.590127Z	info	network	common/discover.go:713	9C60CC0E-B97C-46AD-9CA3-CA376EC7BB7B, client connection {ID: 2017654559, Address: 9.135.224.139:8091} has switched
+2021-10-01 18:02:06.090266Z	info	network	common/discover.go:713	9C60CC0E-B97C-46AD-9CA3-CA376EC7BB7B, client connection {ID: 2017654559, Address: 9.135.224.139:8091} has switched
+2021-10-01 18:02:06.590243Z	info	network	common/discover.go:713	9C60CC0E-B97C-46AD-9CA3-CA376EC7BB7B, client connection {ID: 2017654559, Address: 9.135.224.139:8091} has switched
+2021-10-01 18:02:07.090736Z	info	network	common/discover.go:713	9C60CC0E-B97C-46AD-9CA3-CA376EC7BB7B, client connection {ID: 2017654559, Address: 9.135.224.139:8091} has switched
+2021-10-01 18:02:07.592916Z	info	network	common/discover.go:713	9C60CC0E-B97C-46AD-9CA3-CA376EC7BB7B, client connection {ID: 2017654559, Address: 9.135.224.139:8091} has switched
+2021-10-01 18:02:08.089941Z	info	network	common/discover.go:713	9C60CC0E-B97C-46AD-9CA3-CA376EC7BB7B, client connection {ID: 2017654559, Address: 9.135.224.139:8091} has switched
+2021-10-01 18:02:08.590422Z	info	network	common/discover.go:713	9C60CC0E-B97C-46AD-9CA3-CA376EC7BB7B, client connection {ID: 2017654559, Address: 9.135.224.139:8091} has switched
+2021-10-01 18:02:09.090801Z	info	network	common/discover.go:713	9C60CC0E-B97C-46AD-9CA3-CA376EC7BB7B, client connection {ID: 2017654559, Address: 9.135.224.139:8091} has switched
+2021-10-01 18:02:09.590462Z	info	network	common/discover.go:713	9C60CC0E-B97C-46AD-9CA3-CA376EC7BB7B, client connection {ID: 2017654559, Address: 9.135.224.139:8091} has switched
+2021-10-01 18:02:10.090709Z	info	network	common/discover.go:713	9C60CC0E-B97C-46AD-9CA3-CA376EC7BB7B, client connection {ID: 2017654559, Address: 9.135.224.139:8091} has switched
+2021-10-01 18:02:10.590696Z	info	network	common/discover.go:713	9C60CC0E-B97C-46AD-9CA3-CA376EC7BB7B, client connection {ID: 2017654559, Address: 9.135.224.139:8091} has switched
+2021-10-01 18:02:11.089851Z	info	network	common/discover.go:713	9C60CC0E-B97C-46AD-9CA3-CA376EC7BB7B, client connection {ID: 2017654559, Address: 9.135.224.139:8091} has switched
+2021-10-01 18:02:11.590275Z	info	network	common/discover.go:713	9C60CC0E-B97C-46AD-9CA3-CA376EC7BB7B, client connection {ID: 2017654559, Address: 9.135.224.139:8091} has switched
+2021-10-01 18:02:12.090596Z	info	network	common/discover.go:713	9C60CC0E-B97C-46AD-9CA3-CA376EC7BB7B, client connection {ID: 2017654559, Address: 9.135.224.139:8091} has switched
+2021-10-01 18:02:12.589863Z	info	network	common/discover.go:713	9C60CC0E-B97C-46AD-9CA3-CA376EC7BB7B, client connection {ID: 2017654559, Address: 9.135.224.139:8091} has switched
+2021-10-01 18:02:51.757671Z	info	network	network/conn.go:96	connection {ID: 850182916, Address: 9.135.224.139:8091}: close, curRef is 0
+2021-10-01 18:02:52.247311Z	info	network	network/conn.go:96	connection {ID: 3730760397, Address: 9.135.224.139:8091}: close, curRef is 0
+2021-10-01 18:02:52.266478Z	info	network	network/conn.go:96	connection {ID: 1452626424, Address: 9.135.224.139:8091}: close, curRef is 0
+2021-10-01 18:02:54.780228Z	info	network	network/conn.go:96	connection {ID: 750276053, Address: 9.135.224.139:8091}: close, curRef is 0
+2021-10-01 18:02:57.298020Z	info	network	network/conn.go:96	connection {ID: 1062925654, Address: 9.135.224.139:8091}: close, curRef is 0
+2021-10-01 18:03:15.606432Z	error	network	network/impl.go:339	fail to get connection, opKey is InstanceHeartbeat, cluster healthCheck, error is fail to connect to 9.135.224.139:8091, timeout is 1.205617722s, service is {ServiceKey: {namespace: "Polaris", service: "polaris-default"}, ClusterType: builtin}, because context deadline exceeded
+2021-10-01 18:03:39.941810Z	error	network	network/impl.go:339	fail to get connection, opKey is InstanceHeartbeat, cluster healthCheck, error is fail to connect to 9.135.224.139:8091, timeout is 2.540686934s, service is {ServiceKey: {namespace: "Polaris", service: "polaris-default"}, ClusterType: builtin}, because context deadline exceeded

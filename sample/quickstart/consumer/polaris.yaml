@@ -1,4 +1,145 @@
 global:
+  system:
+    mode: 0
+    discoverCluster:
+      namespace: ""
+      service: ""
+      refreshInterval: 1m0s
+    healthCheckCluster:
+      namespace: ""
+      service: ""
+      refreshInterval: 1m0s
+    monitorCluster:
+      namespace: Polaris
+      service: polaris.monitor
+      refreshInterval: 1m0s
+    variables: {}
+  api:
+    timeout: 1s
+    bindIf: ""
+    bindIP: ""
+    reportInterval: 10m0s
+    maxRetryTimes: 1
+    retryInterval: 1s
   serverConnector:
     addresses:
-    - 127.0.0.1:8091
+      - 127.0.0.1:8091
+    protocol: grpc
+    connectTimeout: 1000ms
+    messageTimeout: 1.5s
+    connectionIdleTimeout: 3s
+    requestQueueSize: 1000
+    serverSwitchInterval: 10m0s
+    reconnectInterval: 500ms
+    plugin:
+      grpc:
+        maxCallRecvMsgSize: 52428800
+  statReporter:
+    enable: true
+    chain:
+      - stat2Monitor
+      - serviceCache
+      - rateLimitRecord
+      - serviceRoute
+    plugin:
+      rateLimitRecord:
+        reportInterval: 1m0s
+      serviceCache:
+        reportInterval: 3m0s
+      serviceRoute:
+        reportInterval: 5m0s
+      stat2Monitor:
+        metricsReportWindow: 1m0s
+        metricsNumBuckets: 12
+consumer:
+  localCache:
+    serviceExpireTime: 24h0m0s
+    serviceRefreshInterval: 2s
+    persistDir: ./polaris/backup
+    type: inmemory
+    persistMaxWriteRetry: 5
+    persistMaxReadRetry: 1
+    persistRetryInterval: 1s
+    persistAvailableInterval: 1m0s
+    startUseFileCache: true
+    plugin: {}
+  serviceRouter:
+    chain:
+      - ruleBasedRouter
+      - nearbyBasedRouter
+    plugin:
+      nearbyBasedRouter:
+        matchLevel: zone
+        maxMatchLevel: ""
+        strictNearby: false
+        enableDegradeByUnhealthyPercent: true
+        unhealthyPercentToDegrade: 100
+    percentOfMinInstances: 0
+    enableRecoverAll: true
+  loadbalancer:
+    type: weightedRandom
+    plugin:
+      hash:
+        hashFunction: murmur3
+      maglev:
+        hashFunction: murmur3
+        tableSize: 65537
+      ringHash:
+        hashFunction: murmur3
+        vnodeCount: 10
+  circuitBreaker:
+    enable: true
+    checkPeriod: 10s
+    chain:
+      - errorCount
+      - errorRate
+    sleepWindow: 30s
+    requestCountAfterHalfOpen: 10
+    successCountAfterHalfOpen: 8
+    recoverWindow: 1m0s
+    recoverNumBuckets: 10
+    plugin:
+      errorCount:
+        continuousErrorThreshold: 10
+        metricStatTimeWindow: 1m0s
+        metricNumBuckets: 10
+      errorRate:
+        requestVolumeThreshold: 10
+        errorRatePercent: 50
+        errorRateThreshold: 0
+        metricStatTimeWindow: 1m0s
+        metricNumBuckets: 5
+  healthCheck:
+    when: never
+    interval: 10s
+    timeout: 100ms
+    chain: []
+    concurrency: 1
+    plugin:
+      http:
+        path: ""
+        host: ""
+        requestHeadersToAdd: []
+        expectedStatuses:
+          - start: 200
+            end: 400
+      tcp: {}
+  subscribe:
+    type: subscribeLocalChannel
+    plugin:
+      subscribeLocalChannel:
+        channelBufferSize: 30
+  servicesSpecific: []
+provider:
+  rateLimit:
+    enable: true
+    plugin:
+      unirate:
+        maxQueuingTime: 1s
+    mode: "1"
+    rateLimitCluster:
+      namespace: ""
+      service: ""
+      refreshInterval: 1m0s
+    maxWindowSize: 20000
+    purgeInterval: 1m0s

@@ -18,6 +18,10 @@
 package quota
 
 import (
+	"sync"
+	"sync/atomic"
+
+	"github.com/modern-go/reflect2"
 	"github.com/polarismesh/polaris-go/pkg/clock"
 	"github.com/polarismesh/polaris-go/pkg/config"
 	"github.com/polarismesh/polaris-go/pkg/flow/data"
@@ -27,9 +31,6 @@ import (
 	"github.com/polarismesh/polaris-go/pkg/plugin"
 	"github.com/polarismesh/polaris-go/pkg/plugin/common"
 	"github.com/polarismesh/polaris-go/pkg/plugin/serverconnector"
-	"github.com/modern-go/reflect2"
-	"sync"
-	"sync/atomic"
 )
 
 const (
@@ -229,6 +230,7 @@ func (f *FlowQuotaAssistant) GetQuota(commonRequest *data.CommonRateLimitRequest
 		}
 		return model.NewQuotaFuture(resp, clock.GetClock().Now(), nil), nil
 	}
+	// 根据请求找到一个滑动窗口
 	window, err := f.lookupRateLimitWindow(commonRequest)
 	if nil != err {
 		return nil, err
@@ -258,6 +260,7 @@ func (f *FlowQuotaAssistant) lookupRateLimitWindow(
 	commonRequest *data.CommonRateLimitRequest) (*RateLimitWindow, error) {
 	var err error
 	// 1. 并发获取被调服务信息和限流配置，服务不存在，返回错误
+	// 优先找本地的 cache 缓存信息，然后没有的话，在直接走 remote 的逻辑
 	if err = f.engine.SyncGetResources(commonRequest); nil != err {
 		return nil, err
 	}
@@ -272,6 +275,7 @@ func (f *FlowQuotaAssistant) lookupRateLimitWindow(
 	commonRequest.Criteria.DstRule = rule
 	// 2.获取已有的QuotaWindow
 	labelStr := commonRequest.FormatLabelToStr(rule)
+	// 根据目标服务、规则以及 label 获取配额分配窗口
 	windowSet, window := f.GetRateLimitWindow(commonRequest.DstService, rule, labelStr)
 	if nil != window {
 		//已经存在限流窗口，则直接分配
